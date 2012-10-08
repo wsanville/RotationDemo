@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="12dp">
+    <EditText
+            android:id="@+id/zip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/zip_hint"
+            android:inputType="number"
+            android:maxLength="5"
+            android:layout_marginBottom="12dp"/>
+    <Button
+            android:id="@+id/lookup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_current_weather"
+            android:layout_marginBottom="12dp"/>
+    <TextView
+            style="?android:attr/textAppearanceMedium"
+            android:id="@+id/results"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""/>
+
+</LinearLayout>
