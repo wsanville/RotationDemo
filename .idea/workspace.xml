@@ -19,7 +19,11 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="c849784d-eb43-4a9d-a303-17e7cdc607eb" name="Default" comment="" />
+    <list default="true" readonly="true" id="c849784d-eb43-4a9d-a303-17e7cdc607eb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README" afterPath="$PROJECT_DIR$/README" />
+    </list>
     <ignored path="RotationDemo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,7 +98,7 @@
       <file leaf-file-name="BasicRetainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/co/touchlab/rotationdemo/BasicRetainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="73" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+            <state line="30" column="22" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1007#1482#0" expanded="true" />
@@ -104,10 +108,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="101" selection-start="583" selection-end="583" vertical-scroll-proportion="0.08314856">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Weather.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/co/touchlab/rotationdemo/utils/Weather.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="49" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BaseActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/co/touchlab/rotationdemo/BaseActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="47" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.42182228">
+            <state line="45" column="83" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#747#769#0" expanded="true" />
@@ -122,6 +146,9 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -139,6 +166,7 @@
         <option value="$PROJECT_DIR$/res/layout-land/basic.xml" />
         <option value="$PROJECT_DIR$/src/co/touchlab/rotationdemo/BasicRetainActivity.java" />
         <option value="$PROJECT_DIR$/src/co/touchlab/rotationdemo/BaseActivity.java" />
+        <option value="$PROJECT_DIR$/README" />
       </list>
     </option>
   </component>
@@ -556,7 +584,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1680" height="1050" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -573,7 +601,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2129743" sideWeight="0.6706136" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2129743" sideWeight="0.6706136" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32938644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Android Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934928" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -685,15 +713,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/touchlab/rotationdemo/utils/Weather.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="43" selection-start="3178" selection-end="3178" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/basic.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="68" selection-start="857" selection-end="857" vertical-scroll-proportion="0.33259425">
@@ -738,9 +757,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/touchlab/rotationdemo/BaseActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="83" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#747#769#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/co/touchlab/rotationdemo/utils/Weather.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="49" selection-start="1829" selection-end="1829" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/co/touchlab/rotationdemo/BasicRetainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="73" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+        <state line="30" column="22" selection-start="823" selection-end="823" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1007#1482#0" expanded="true" />
@@ -749,13 +787,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/co/touchlab/rotationdemo/BaseActivity.java">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="47" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.42182228">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#747#769#0" expanded="true" />
-          </folding>
+        <state line="5" column="101" selection-start="583" selection-end="583" vertical-scroll-proportion="0.08314856">
+          <folding />
         </state>
       </provider>
     </entry>

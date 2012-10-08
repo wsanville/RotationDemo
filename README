@@ -1,1 +1,6 @@
-This file was created by IntelliJ IDEA (Community Edition) IC-117.912 for binding GitHub repository
+This application introduces a reusable pattern for retaining running AsyncTasks during a screen rotation.  The goal is
+to make it easy for activities to retain many different combinations of running AsyncTasks, as well as other data too.
+
+See BaseActivity/BasicRetainActivity for a simple example of fetching a weather forecast in an AsyncTask. Try rotating
+the screen around while the task is running and the dialog is present. Upon rotation, the dialog is dismissed, a new one is
+opened on the new activity, and the task continues. When complete, the host activity gets a callback.
