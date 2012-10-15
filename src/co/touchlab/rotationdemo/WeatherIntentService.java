@@ -44,7 +44,7 @@ public class WeatherIntentService extends IntentService
         try
         {
             pendingResult.send(this.getApplicationContext(), Activity.RESULT_OK, new Intent().putExtra(WEATHER_INFO, weatherInfo));
-            Log.d(getClass().getSimpleName(), "Sending pending intent");
+            Log.d(getClass().getSimpleName(), "Sent pending intent");
         }
         catch (PendingIntent.CanceledException e)
         {

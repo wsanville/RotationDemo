@@ -16,6 +16,6 @@
         <activity android:name=".BasicRetainActivity" android:label="@string/basic_retain_activity"/>
         <activity android:name=".LoaderActivity" android:label="@string/loader_activity"/>
         <activity android:name=".ServiceActivity" android:label="@string/intent_service_demo"/>
-        <service android:name=".WeatherIntentService" />
+        <service android:name=".WeatherIntentService" android:process=":services" />
     </application>
 </manifest>
