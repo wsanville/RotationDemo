@@ -1,5 +1,6 @@
 package co.touchlab.rotationdemo.utils;
 
+import android.text.Html;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -11,6 +12,7 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
+import java.io.Serializable;
 import java.io.StringReader;
 
 /**
@@ -78,8 +80,10 @@ public class Weather
         }
     }
 
-    public static class WeatherInfo
+    public static class WeatherInfo implements Serializable
     {
+        private static final long serialVersionUID = 1L;
+
         private String zip, locationName;
         private float temperature;
 
@@ -103,6 +107,11 @@ public class Weather
         public String getZip()
         {
             return zip;
+        }
+
+        public CharSequence summary()
+        {
+            return Html.fromHtml(String.format("Current temperature for %s is %.0f&deg;F", getLocationName(), getTemperature()));
         }
 
         /**

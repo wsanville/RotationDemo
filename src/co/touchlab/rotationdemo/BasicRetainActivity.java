@@ -65,7 +65,7 @@ public class BasicRetainActivity extends BaseActivity
 
         if (info != null)
         {
-            text = Html.fromHtml(String.format("Current temperature for %s is %.0f&deg;F", info.getLocationName(), info.getTemperature()));
+            text = info.summary();
         }
         else
         {

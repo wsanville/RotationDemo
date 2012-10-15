@@ -12,4 +12,5 @@
         configuration change.
     </string>
     <string name="loader_demo">Loader Demo</string>
+    <string name="intent_service_demo">Intent Service Demo</string>
 </resources>

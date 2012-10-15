@@ -23,12 +23,22 @@ public class HomeActivity extends BaseActivity
                 startActivity(new Intent(HomeActivity.this, BasicRetainActivity.class));
             }
         });
+
         findViewById(R.id.loader).setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View view)
             {
                 startActivity(new Intent(HomeActivity.this, LoaderActivity.class));
+            }
+        });
+
+        findViewById(R.id.service).setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view)
+            {
+                startActivity(new Intent(HomeActivity.this, ServiceActivity.class));
             }
         });
     }
